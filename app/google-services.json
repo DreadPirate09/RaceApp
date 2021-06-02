@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "804474080502",
+    "project_id": "raceapp-4200b",
+    "storage_bucket": "raceapp-4200b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804474080502:android:05f5bb9504b86bedd3f0d7",
+        "android_client_info": {
+          "package_name": "com.example.raceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804474080502-d2pbfdllg4hp1pr5u99npp4g4ksreq24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdOJsHEdFc_NSmLdF0hbL7djYZI7jGKGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804474080502-d2pbfdllg4hp1pr5u99npp4g4ksreq24.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
