@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -38,7 +39,6 @@ public class Register extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressBar);
-        progressBar.setVisibility(View.INVISIBLE);
 
         if(fAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
