@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("We are in the on create function wtf romania!\n");
 
         TabLayout tabLayout = findViewById(R.id.tabLayout);
-        TabItem tabChats = findViewById(R.id.tabChat);
-        TabItem tabPeople = findViewById(R.id.tabPeople);
-        TabItem tabRace = findViewById(R.id.tabRace);
         ViewPager viewPager = findViewById(R.id.viewPager);
 
         PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(),
